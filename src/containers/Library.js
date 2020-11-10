@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import * as actions from "../store/actions/index";
@@ -14,6 +14,7 @@ const StyledLibrary = styled.div`
 const StyledGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  
   grid-gap: 1rem;
   height: 73vh;
   overflow: scroll;
