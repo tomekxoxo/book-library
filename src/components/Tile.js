@@ -9,7 +9,7 @@ const StyledTile = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width:30rem;
+  max-width:45rem;
   max-height:300px;
   h1, h2, h3{
     padding-bottom:1rem;
