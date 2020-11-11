@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import styled from "styled-components";
 import * as actions from "../store/actions/index";
-import Input from "../components/Input";
+import InputsPanel from "../components/InputsPanel";
 import Tile from "../components/Tile";
 
 const StyledLibrary = styled.div`
@@ -45,7 +45,7 @@ const Library = (props) => {
   return (
     <StyledLibrary>
       <StyledGrid>{books}</StyledGrid>
-      <Input addBook={props.onAddBook} books={props.bookLib} />
+      <InputsPanel addBook={props.onAddBook} books={props.bookLib} />
     </StyledLibrary>
   );
 };

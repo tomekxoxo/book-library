@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Filter from "./Filter";
+import Filter from "../containers/Filter";
 import styled from "styled-components";
 import Button from "./Button";
 
@@ -27,7 +27,7 @@ const StyledInputs = styled.div`
   }
 `;
 
-const Input = (props) => {
+const InputsPanel = (props) => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [year, setYear] = useState("");
@@ -88,4 +88,4 @@ const Input = (props) => {
   );
 };
 
-export default Input;
+export default InputsPanel;
