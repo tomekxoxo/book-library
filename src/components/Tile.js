@@ -14,6 +14,9 @@ const StyledTile = styled.div`
   h1, h2, h3{
     padding-bottom:1rem;
   }
+  @media screen and (min-width:768px){
+    max-width:35rem;
+  }
 `;
 
 const Tile = (props) => {
