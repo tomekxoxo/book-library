@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## General info
-App was created for recrutiment purpose.
+App was created for recruitment purpose.
 ## Technologies
 * React.js
 * Redux
