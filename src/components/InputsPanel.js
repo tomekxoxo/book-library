@@ -22,6 +22,9 @@ const StyledInputs = styled.div`
       border-radius: 5px;
     }
   }
+  button{
+    margin-bottom:2rem;
+  }
   @media screen and (max-width: 320px) {
     height: 35vh;
   }
