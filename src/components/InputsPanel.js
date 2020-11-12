@@ -84,7 +84,7 @@ const InputsPanel = (props) => {
         />
         <Filter />
       </form>
-      <Button type="submit" color="#23272b" clickAction={addBookHandler}>
+      <Button color="#23272b" clickAction={addBookHandler}>
         add
       </Button>
     </StyledInputs>

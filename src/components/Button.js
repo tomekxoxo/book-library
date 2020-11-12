@@ -20,7 +20,6 @@ const Button = (props) => {
   return (
     <StyledButton
       color={props.color}
-      type={props.type}
       onClick={props.clickAction}
     >
       {props.children}
